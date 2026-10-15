@@ -1,0 +1,14 @@
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+
+# local Docker setup - stays on this machine, never submitted
+Dockerfile
+.dockerignore
+docker-compose*.yml
